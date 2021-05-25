@@ -1,0 +1,542 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1542121146363,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "84e01f25-9d23-44f4-a8df-f00ce5917a17",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1621946209362,
+      "lastUpdateUserId": "f9a360f9-a71d-42fc-900b-a264b44c1955",
+      "locked": false,
+      "name": "TH Troubleshooting/TH vDC Physical vs Virtual Troubleshooting",
+      "namePath": "TH Troubleshooting",
+      "rank": 0,
+      "shared": true,
+      "states": [{
+         "key": "permDashboardTime_dashboard_84e01f25-9d23-44f4-a8df-f00ce5917a17",
+         "value": "o%3AdateRange%3Ds%253Alast24Hour%5EdateRangeText%3Ds%253A24H"
+      }],
+      "temporary": false,
+      "userId": "f9a360f9-a71d-42fc-900b-a264b44c1955",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "827fad98-e0a0-419f-8c95-90595af762b4",
+            "widgetIdReceiver": "0204722a-a161-4b82-99d4-ccd66066b567"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "827fad98-e0a0-419f-8c95-90595af762b4",
+            "widgetIdReceiver": "d5452320-b5e5-4c77-88be-b5acd745a472"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "827fad98-e0a0-419f-8c95-90595af762b4",
+            "widgetIdReceiver": "71225909-ef0a-4b10-8a8d-435dd0dd1b8c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "827fad98-e0a0-419f-8c95-90595af762b4",
+            "widgetIdReceiver": "e7b243bc-8476-4f38-b7ea-e86907ad1d5e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "827fad98-e0a0-419f-8c95-90595af762b4",
+            "widgetIdReceiver": "3d0439c1-fb87-45aa-b98b-285767987d7e"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "vCenter",
+                     "metricKey": "summary|parentVcenter",
+                     "metricName": "Summary|Parent vCenter",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "",
+                     "metricKey": "summary|total_number_hosts",
+                     "metricName": "Summary|Total Number of Hosts",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "1. Select vDatacenter"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 4,
+               "x": 5,
+               "y": 1
+            },
+            "height": 438,
+            "id": "827fad98-e0a0-419f-8c95-90595af762b4",
+            "states": [{
+               "key": "permResGrid_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_827fad98-e0a0-419f-8c95-90595af762b4",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253Aname%2525255Edirection%2525253Ds%252525253AASC%2525255Eid%2525253Ds%252525253Aname"
+            }],
+            "title": "1. Select vDatacenter",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "editorData": "<div><font size=\"4\" face=\"metropolis\">\u200bThis dashboard is useful for troubleshooting potential concerns of physical or external networking problems that could be impacting the VMware environment.<\/font><\/div><div><font size=\"4\" face=\"metropolis\"><br><\/font><\/div><div><font size=\"4\" face=\"metropolis\">Selecting a vDatacenter will load all host\u2019s in the given vDC\u2019s physical nics and show physical network usage rates (in MBps) and show physical packet drops (in %).&nbsp; It will all show corresponding values for all the vDC\u2019s VM virtual nics.<\/font><\/div><div><font size=\"4\" face=\"metropolis\"><br><\/font><\/div><div><font size=\"4\" face=\"metropolis\">This information is useful to compare as if there are significant differences on the physical layer that do not trend with the virtual layer, it can be indicative of external factors impacting the physical NICs such as external DDoS attacks or bad switches/ports.<br><\/font><\/div><div><br><\/div><div><font size=\"4\"><font face=\"metropolis\">High pNIC Usage Rate or Packet Drop spikes over vNIC Usage Rate is an indication of southbound traffic not originating from virtual machines hitting the nics of the ESX hosts.<\/font><\/font><\/div><div><font size=\"4\"><font face=\"metropolis\"><br><\/font><\/font><\/div><div><font size=\"4\"><font face=\"metropolis\">High vNIC Packet Drop spikes over pNICs is an indication of potential ESX Host workload or contention issues.&nbsp; Check potential problems with oversubscribed hosts.<\/font><\/font><\/div>",
+               "locationFile": "",
+               "locationUrl": "",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "title": "How to use this dashboard",
+               "titleLocalized": "How to use this dashboard",
+               "viewModeHTML": true
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 438,
+            "id": "2db45924-6f69-438d-a008-7b639631dcbe",
+            "title": "How to use this dashboard",
+            "type": "TextDisplay"
+         },
+         {
+            "collapsed": false,
+            "config": {},
+            "gridsterCoords": {
+               "h": 8,
+               "w": 4,
+               "x": 9,
+               "y": 1
+            },
+            "height": 438,
+            "id": "0204722a-a161-4b82-99d4-ccd66066b567",
+            "states": [{
+               "key": "permResourceRelationship_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_0204722a-a161-4b82-99d4-ccd66066b567",
+               "value": "o%3A"
+            }],
+            "title": "Object Relationship",
+            "type": "ResourceRelationship"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel4068-1",
+                        "isStringMetric": false,
+                        "metricKey": "net:physical|usage_average",
+                        "metricName": "Network:physical|Usage Rate",
+                        "metricUnitId": "mbps",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "MBps",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel4068-2",
+                        "isStringMetric": false,
+                        "metricKey": "net:virtual|usage_average",
+                        "metricName": "Network:virtual|Usage Rate",
+                        "metricUnitId": "mbps",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "MBps",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "2a. Review Datacenter pNIC Usage Rate to vNIC Usage Rate"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 6,
+               "x": 1,
+               "y": 9
+            },
+            "height": 552,
+            "id": "d5452320-b5e5-4c77-88be-b5acd745a472",
+            "states": [
+               {
+                  "key": "permBtn_stackedGraph_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_d5452320-b5e5-4c77-88be-b5acd745a472",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_trendLine_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_d5452320-b5e5-4c77-88be-b5acd745a472",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_d5452320-b5e5-4c77-88be-b5acd745a472",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_d5452320-b5e5-4c77-88be-b5acd745a472",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_splitGraphs_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_d5452320-b5e5-4c77-88be-b5acd745a472",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_d5452320-b5e5-4c77-88be-b5acd745a472",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_d5452320-b5e5-4c77-88be-b5acd745a472",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_d5452320-b5e5-4c77-88be-b5acd745a472",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_d5452320-b5e5-4c77-88be-b5acd745a472",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_anomalies_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_d5452320-b5e5-4c77-88be-b5acd745a472",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_thresholds_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_d5452320-b5e5-4c77-88be-b5acd745a472",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "2a. Review Datacenter pNIC Usage Rate to vNIC Usage Rate",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel3335-1",
+                        "isStringMetric": false,
+                        "metricKey": "net:physical|droppedPct",
+                        "metricName": "Network:Physical|Packets Dropped",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel3335-2",
+                        "isStringMetric": false,
+                        "metricKey": "net:virtual|droppedPct",
+                        "metricName": "Network:Virtual|Packets Dropped",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "%",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "2b. Review Datacenter pNIC Packet Drop (%) to vNIC Packet Drop (%)"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 6,
+               "x": 7,
+               "y": 9
+            },
+            "height": 552,
+            "id": "71225909-ef0a-4b10-8a8d-435dd0dd1b8c",
+            "states": [
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_71225909-ef0a-4b10-8a8d-435dd0dd1b8c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_splitGraphs_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_71225909-ef0a-4b10-8a8d-435dd0dd1b8c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_71225909-ef0a-4b10-8a8d-435dd0dd1b8c",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_71225909-ef0a-4b10-8a8d-435dd0dd1b8c",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_71225909-ef0a-4b10-8a8d-435dd0dd1b8c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_71225909-ef0a-4b10-8a8d-435dd0dd1b8c",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_thresholds_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_71225909-ef0a-4b10-8a8d-435dd0dd1b8c",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "2b. Review Datacenter pNIC Packet Drop (%) to vNIC Packet Drop (%)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 2,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel2656-1",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|capacity_contentionPct",
+                        "metricName": "CPU|Contention",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel2656-2",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|capacity_contentionPct",
+                        "metricName": "CPU|Contention",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel2656-3",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|capacity_contentionPct",
+                        "metricName": "CPU|Contention",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "%",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "3b. Review Cluster(s) & Host(s) Contention"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 7,
+               "y": 19
+            },
+            "height": 323,
+            "id": "e7b243bc-8476-4f38-b7ea-e86907ad1d5e",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_e7b243bc-8476-4f38-b7ea-e86907ad1d5e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_e7b243bc-8476-4f38-b7ea-e86907ad1d5e",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_e7b243bc-8476-4f38-b7ea-e86907ad1d5e",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "3b. Review Cluster(s) & Host(s) Contention",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "handleOldColoring": false,
+                     "id": "extModel6176-1",
+                     "isStringMetric": false,
+                     "metricKey": "cpu|capacity_contentionPct",
+                     "metricName": "CPU|Contention",
+                     "metricUnitId": "percent",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Datacenter",
+                     "unit": "%",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "3a. Review Datacenter Contention"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 1,
+               "y": 19
+            },
+            "height": 323,
+            "id": "3d0439c1-fb87-45aa-b98b-285767987d7e",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_3d0439c1-fb87-45aa-b98b-285767987d7e",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_84e01f25-9d23-44f4-a8df-f00ce5917a17_3d0439c1-fb87-45aa-b98b-285767987d7e",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "3a. Review Datacenter Contention",
+            "type": "MetricChart"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "Datacenter"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "HostSystem"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "ClusterComputeResource"
+      }
+   ]},
+   "uuid": "250e9fe6-4ebf-45d4-9374-91e3ce7e7422"
+}
